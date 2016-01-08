@@ -10,13 +10,32 @@ body {
 }
 
 .title {
+    background-image: url(../img/mosque.png);
+    background-attachment: fixed;
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: 100% 80%;
+    color: #fff;
+    text-align: center;
+    padding-top: 6%;
+    padding-right: 8%;
+
+}
+
+.title {
   text-align: center;
   background-color: #EEE;
-  padding-bottom: 10px
+  padding-bottom: 10px;
+
 }
 .title span { 
 font-size: 34px;
 text-shadow: -3px 0px 3px;
+}
+
+nav {
+    position:fixed;
 }
 
 .tab-content {
@@ -30,11 +49,25 @@ text-shadow: -3px 0px 3px;
 
 #Anouncements {
   background-color: #EEE;
-  padding:10px 0px;
-  border-radius: 5px
+  padding:15px;
+  border-radius: 5px;
+
 }
 .item {
   width: 100%
+}
+
+#homeless {
+  background-color: #EEE;
+      padding: 12px;
+}
+#monthly {
+  background-color: #EEE;
+      padding: 12px;
+}
+
+#homeless span {background-color: blue
+
 }
 
 * :after, :before {
@@ -52,13 +85,10 @@ text-shadow: -3px 0px 3px;
 }
 .bs-grid {
     background: #FFF;
-   
     padding: 70px 0px;
 }
-
-.container-fluid {
-background-color:
-
+.bs-grid img {
+  padding: 2px
 }
 
 .row{
@@ -83,9 +113,25 @@ background-color:green;
       margin-left: 10%;
 }
 
+#paypal {
+  padding-bottom: 20px
+}
+
 footer {
-  height: 70px;
-  background-color: #EEE
+  height: 110px;
+  background-color: #EEE;
+  padding-top: 10px
+ 
+}
+
+#follow {
+  font-size: 30px;
+   font-family: 'Bangers', cursive;
+    color: darkgray;
+}
+
+.row img {
+  border-radius: 7px
 }
 
 
@@ -6846,4 +6892,30 @@ button.close {
     display: none !important;
   }
 }
+
+@media screen and (max-width: 1200px){
+  .title{
+  height: 555px;
+  padding-top: 10%;
+  }
+}
+
+
+@media screen and (max-width: 768px){
+  #top:before{
+     content: "Welcome To ";
+  }
+  #top{
+   margin-left: 30%
+  }
+
+ .title {
+   padding-top: 27%;
+  height: 519px;
+
+ }
+
+}
+
+
 /*# sourceMappingURL=bootstrap.css.map */
